@@ -1,0 +1,10 @@
+#app {
+  width: 1366px;
+  height: 768px;
+  background-image: url("./assets/background-mb.png");
+  background-size: 1366px 768px;
+}
+
+body {
+  margin: 0;
+}
