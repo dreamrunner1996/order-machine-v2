@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import './OrderLeftContent.css'
-import TimeSpaceLoading from '../TimeSpaceLoading/TimeSpaceLoading'
+import './OrderLeftComponent.css'
+import TimeSpaceLoading from './TimeSpaceLoading/TimeSpaceLoading'
 
 // eslint-disable-next-line no-unused-vars
 let TimeInterval = null

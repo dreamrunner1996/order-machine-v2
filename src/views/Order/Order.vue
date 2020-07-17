@@ -5,7 +5,7 @@
         <OrderLeftComponent :space-percent="spacePercent" />
       </Col>
       <Col :span="16">
-        <div class="order-right-content"></div>
+        <OrderRightComponent />
       </Col>
     </Row>
   </div>
@@ -13,6 +13,7 @@
 
 <script>
 import OrderLeftComponent from '../../components/OrderLeftComponent/OrderLeftComponent'
+import OrderRightComponent from '../../components/OrderRightComponent/OrderRightComponent'
 import './Order.css'
 import { Col, Row } from 'element-ui'
 
@@ -23,7 +24,7 @@ export default {
       type: Number
     }
   },
-  components: { OrderLeftComponent, Col, Row },
+  components: { OrderLeftComponent, OrderRightComponent, Col, Row },
   name: 'Order',
   data: () => ({})
 }
