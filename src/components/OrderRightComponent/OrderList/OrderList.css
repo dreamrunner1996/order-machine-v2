@@ -1,0 +1,15 @@
+.order-list-content {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.order-list-content .order-list-title {
+  display: flex;
+  flex-direction: row;
+}
+.order-list-content .order-item-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
